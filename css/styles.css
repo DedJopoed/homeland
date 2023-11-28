@@ -50,7 +50,82 @@ tr td {
 }
 
 .wrapper {
- width: 1200px;
+ width: 1200px; 
  margin: 20px auto; 
  text-align: center;
+}
+
+/* *inline */
+
+.block{
+
+width: 1200px;
+margin: 0 auto;
+vertical-align: top;
+font-size: 0px;
+}
+
+.cube {
+ width: 400px;
+ height: 400px;
+ display: inline-block;
+ background: aqua;
+}
+
+div.cube {
+  border-left: 2px solid black;
+}
+
+.square {
+width: 800px;
+background-color: lightgreen;
+display: inline-block;
+
+}
+
+.insquare {
+  height: 200px;
+  width: 800px;
+  display: inline-block;
+  background: lightgreen ;
+  }
+
+.insquare + .insquare{
+border-top:2px solid black;
+}
+
+.incube{
+ height: 133.33px;
+ width: 400px;
+ background: rgb(13, 187, 13);
+ display: inline-block;
+}
+
+.incube + .incube {
+  border-top: 2px solid black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.cube.orange {
+  border-right: 2px solid black;
+}
+
+.lilsq {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  border-right: 2px solid black;
+}
+
+.little {
+ width: 400px;
+ height: 100px;
+ display: inline-block;
+}
+
+.little + .little {
+  border-top: 2px solid black;
 }
